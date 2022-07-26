@@ -1,0 +1,110 @@
+/*Start General Style*/
+footer .footer-main{
+    padding:70px 0;
+    background-color:#403D38;
+    color:white;
+}
+
+footer .footer-main .col{
+    float:left;
+    width:calc(100%/4);
+    padding:10px 25px 10px 0;
+}
+
+footer .footer-main .col-head{margin-bottom: 30px; font-size: 20px; color:white;}
+
+footer .footer-main p{font-size:16px; display: inline-block;}
+
+footer .footer-main .last-item{border:none}
+
+@media screen and (max-width:767px){
+    footer .footer-main .col{
+        width: 100%;
+        padding-right:0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    footer .footer-main .col{
+        width: 50%;
+    }
+}
+/*End General Style*/
+
+
+/*--Start Footer Main Style--*/
+footer .footer-main .first-col{padding:0 20px 0 0}
+
+footer .footer-main .first-col p{margin-bottom: 20px;}
+
+footer .footer-main span{
+    font-size:10px;
+    margin-right: 7px;
+}
+
+footer .footer-main .fourth-col span{
+    font-size:15px;
+    color:rgb(165, 165, 165)
+}
+
+footer .footer-main ul li{padding:14px 0; border-bottom:1px solid rgba(123, 123, 123, 0.3)}
+/*--End Footer Main Style--*/
+
+
+/*--Start Footer Bottom Style--*/
+footer .footer-bottom {
+    background-color:#353330;
+    text-align: center;
+    padding:70px 0;
+}
+
+footer .footer-bottom .logo{width:35%; margin: auto; margin-bottom: 20px}
+
+
+footer .footer-bottom .icons{margin-top:25px;}
+
+footer .footer-bottom .icon{background-color:#504c46}
+
+footer .footer-bottom .icon{
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    color:grey;
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width:1024px) {
+    footer .footer-main .col{
+        padding-left:0;
+        margin-bottom: 40px;
+    }    
+    
+    footer .footer-bottom .logo {width: 50%}
+}
+
+@media screen and (max-width:768px) {
+    footer .footer-bottom .logo {width: 60%}
+
+    footer .footer-bottom p{font-size: 18px}
+
+    footer .footer-bottom .icons .icon {
+        width: 50px;
+        height: 50px;
+        font-size:20px
+    }
+}
+
+@media screen and (max-width:600px) {
+    footer .footer-bottom .logo {width: 90%}
+
+    footer .footer-bottom p{font-size: 16px}
+
+    footer .footer-bottom .icons .icon {
+        width: 40px;
+        height: 40px;
+        font-size:18px
+    }
+}
+
+/*--End Footer Bottom Style--*/

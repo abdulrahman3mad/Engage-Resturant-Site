@@ -1,0 +1,264 @@
+@import "../base/base.css";
+@import "../base/helpers.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+
+header{
+    background-color: transparent;
+    position: static; 
+    width: 100%;
+}
+
+/*--Start Welcome Section Style--*/
+.welcome-section{
+    background-image: url("../../imgs/welcome_background.jpg");
+    background-size: cover;
+    background-position: center;
+    height:auto;
+    overflow: hidden;
+    color:white;
+}  
+.welcome-section .container{width: 90%}
+
+.welcome-section .text-box{text-align: center; margin:70px 0 100px 0}
+
+.welcome-section .text-box h1{
+    font-size:76px;
+    margin-bottom: 20px;
+}
+
+.welcome-section .text-box .dancing-text{
+    margin-bottom: 35px;
+    font-size:40px;
+    color:white;
+}
+
+.welcome-section .btn{font-size: 16px}
+
+.welcome-section .btn1{margin-right: 10px; color:white;}
+
+.welcome-section .btn2{color:black;}
+
+.welcome-section .text-box .img-box{width: 500px; margin: auto;}
+
+
+@media screen and (max-width:1024px) {
+    .welcome-section .text-box{margin:200px 0}
+    
+    .welcome-section .text-box .img-box{width: 500px; margin: auto;}
+
+    .welcome-section .text-box h1{font-size:40px}
+
+    .welcome-section .text-box .dancing-text{font-size:25px}
+}
+
+
+@media screen and (max-width:767px){
+    .welcome-section .btn{padding: 12px 15px;}
+
+    .welcome-section .text-box .img-box{width: 100%}
+}
+
+/*--End Welcome Section Style--*/
+
+/*--Start Family Business Section Style--*/
+.business-family .text-box{padding: 70px 30px}
+
+.business-family .text-box .text-box-head{margin-bottom: 10px}
+
+.business-family .text-box .text-box-content li{margin-top:20px}
+
+.business-family .text-box .text-box-content ul li span{text-align: center}
+
+.business-family .text-box .text-box-content span i{font-size:22px}
+
+.business-family .text-box .text-box-content ul li p{padding-top:10px; display: inline-block;}
+
+.business-family .img-box{text-align: center}
+
+.business-family .img-box img{width: 80%}
+
+@media screen and (max-width:768px){
+    
+    .business-family .text-box .text-box-head h2{font-size:30px}
+
+    .business-family .text-box{padding: 70px 0}
+
+    .business-family .text-box .text-box-head .dancing-text{font-size:22px}
+
+    .business-family .text-box .text-box-content p{font-size:15px} 
+
+    .business-family .text-box .text-box-content ul li span{width:30px; height:30px; padding:5px}
+
+    .business-family .text-box .text-box-content ul li span i{font-size:17px}
+}
+
+@media screen and (max-width:992px) {
+
+    .business-family .text-box, .business-family .img-box{width: 100%}
+
+    .business-family .text-box, .business-family .img-box img{width: 90%}
+}
+
+/*--End Family Business Section Style--*/
+
+/*--Start Reviewers Section Style--*/
+.reviewers{background-color:#F8F8F8}
+
+.reviewers .text-box {padding-right:40px}
+
+.reviewers .text-box .text-box-head {margin-bottom:30px}
+
+.reviewers .text-box .text-box-content ul{margin-top:20px}
+
+.reviewers .text-box .text-box-content ul li span{
+    margin-right: 15px;
+    color:#C1AB84
+}
+
+.reviewers .text-box .text-box-content li p {display: inline-block;}
+
+.reviewers .text-box .text-box-content ul li{margin-bottom: 20px}
+
+
+.reviewers .text-box{margin-bottom: 30px}
+
+
+@media screen and (max-width:992px) {    
+    .reviewers .text-box, .reviewers .img-box{width: 100%}
+}
+
+
+@media screen and (max-width:767px){
+    .reviewers .text-box{padding-right: 0}
+
+    .reviewers .text-box .text-box-head h2{font-size:30px}
+
+    .reviewers .text-box .text-box-head .dancing-text{font-size:22px}
+
+    .reviewers .text-box .text-box-content p{font-size:15px}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .reviewers .text-box .text-box-head h2{font-size:38px}
+
+    .reviewers .text-box .text-box-head .dancing-text{font-size:28px}
+
+    .reviewers .text-box .text-box-content p{font-size:18px}
+
+    .reviewers .text-box .text-box-content ul li p{font-size:18px}
+}
+/*--End Reviewers Section Style--*/
+
+.restaurant-view{
+    background-image: url("../../imgs/shutterstock_280369721.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    height:490px;
+}
+
+/*--Start Our Flag Dishes Section Style--*/
+.our-flag-dishes{text-align:center; background-color:#F8F8F8}
+
+.our-flag-dishes .section-head{margin-bottom: 50px}
+
+.our-flag-dishes .dishes-boxes .dish{margin-bottom: 70px}
+
+.our-flag-dishes .dishes-boxes .dish{padding:0 20px}
+
+.our-flag-dishes .dishes-boxes .dish-name{margin:21px 0; font-size:21px}
+
+.our-flag-dishes .dishes-btn{
+    color:white;
+    font-size:16px;
+    padding-top:15px;
+}
+
+@media screen and (max-width:767px){
+    .our-flag-dishes .section-head h2{font-size:30px}
+
+    .our-flag-dishes .dishes-boxes .dish{width: 100%}
+
+    .our-flag-dishes .section-head .dancing-text{font-size:22px}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .our-flag-dishes .dishes-boxes .dish{width: 50%}
+
+    .our-flag-dishes .text-box .text-box-head .dancing-text{font-size:25px}
+
+    .our-flag-dishes .text-box .text-box-content p{font-size:20px} 
+}
+/*--End Our Flag Dishes Section Style--*/
+
+/*--Start Testimonials Section Style--*/
+.testimonials{
+    background-image: url("../../imgs/welcome_background.jpg");
+    height:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -150px;
+    color:white;
+    text-align: center;
+    padding:70px 0;
+}
+
+.testimonials .testimonials-icon{width: 50px; margin:auto;}
+
+.testimonials .section-head h3{margin-bottom: 40px; margin-top:20px; font-size: 30px; color:white;}
+
+.testimonials .testimonials-text{font-size:27px}
+
+.testimonials .testimonials-owner{margin-top:40px; font-size:19px}
+
+.testimonials .icons{margin-top: 30px}
+
+.testimonials .icons span {font-size:27px; margin:0 2px; color:whitesmoke}
+
+@media screen and (max-width:991px) {
+
+    .testimonials{
+        padding:50px 0;
+        background-position: 0;
+    }
+
+    .testimonials .testimonials-text{font-size:20px}
+
+    .testimonials .testimonials-owner{font-size:17px}
+
+    .testimonials .testimonials-company{font-size:14px}
+
+    .testimonials .icons span{font-size: 18px}
+}
+/*--End Testimonials Section Style--*/
+
+/*--Start Where Are We Section Style--*/
+.where-are-we{background-color:#F8F8F8}
+
+.where-are-we .text-box{padding-right: 10px; margin-bottom: 50px}
+
+.where-are-we .text-box .text-box-head h2{margin-bottom: 25px}
+
+.where-are-we .text-box .text-box-head{margin-bottom: 20px}
+
+.where-are-we .text-box .text-box-content ul{margin-top:30px}
+
+.where-are-we .text-box .text-box-content li{margin-bottom: 30px}
+
+.where-are-we .text-box .text-box-content li p{display: inline-block}
+
+.where-are-we .text-box .text-box-content span {font-size:15px}
+
+@media screen and (max-width:991px) {
+    .where-are-we .text-box, .where-are-we .img-box{width: 100%}
+
+    .where-are-we .text-box{padding-right:0}
+}
+
+@media  screen and (max-width:768px) {
+    .where-are-we .text-box .text-box-head h2{font-size:30px}
+
+    .where-are-we .text-box  p{font-size:16px}    
+}
+/*--End Where Are We Section Style--*/
+

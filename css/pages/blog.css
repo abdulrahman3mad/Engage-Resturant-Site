@@ -1,0 +1,102 @@
+@import "../base/base.css";
+@import "../base/helpers.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+@import "../components/pageTitle.css";
+
+header ul li a{color:#333333 !important}
+
+.page-title{
+    height:100px;
+    padding:25px 0;
+}
+
+.page-title h1{float:left; padding:0}
+
+.page-title p{float:right; padding-top:10px}
+
+
+/*--Start Blogs Section Style--*/
+.blogs-section .blogs{
+    float:left;
+    width:75%;    
+    padding-right: 30px;
+}
+
+.blogs-section .search-tools{float:left; width:25%}
+
+.blogs-section .blogs .blog{
+    padding-right: 20px;
+    margin-bottom: 25px;
+}
+
+.blogs-section .blogs .blog .blog-head.bk-color {
+    background-color:#C1AB84;
+    color:white;
+    padding:20px;
+}
+
+.blogs-section .blogs .blog .blog-head p:first-child{font-size:20px; margin-bottom: 10px}
+
+.blogs-section .blogs .blog .blog-head p{font-size:15px}
+
+
+.blogs-section .blogs .blog .blog-content{
+    border:1px solid rgba(212, 212, 212, 0.3);
+    border-top:none;
+    padding:15px 20px;
+}
+
+.blogs-section .blogs .blog .blog-head .img-container img{width:100%;height: 230px; object-fit: cover}
+
+.blogs-section .blogs .blog .blog-content .blog-title{font-size: 20px}
+
+.blogs-section .blogs .blog .blog-content .blog-owner{
+    font-size: 13px;
+    color:rgb(180, 180, 180);
+    margin:10px 0;
+}
+
+.blogs-section .blogs .blog .blog-content a{
+    display: block;
+    margin:15px 0;
+    font-size:14px;
+}
+
+
+.search-tools .search-box{
+    padding:20px 0;
+    border-bottom:1px solid rgba(212, 212, 212, 0.4);
+}
+
+.search-tools input{
+    border:1px solid rgba(212, 212, 212, 0.4);
+    width: 100%;
+    padding:9px 12px;
+}
+
+.search-tools input::placeholder{opacity: 0.6}
+
+.search-tools .search-tool-list h5.search-tool-title{
+    font-size:17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.search-tools .search-tool-list ul li{margin-bottom: 20px}
+
+.search-tools .search-tool-list{
+    padding:30px 0;
+    border-bottom:1px solid rgba(212, 212, 212, 0.4);
+}
+
+@media screen and (max-width:1024px){
+    .blogs-section .blogs{padding-right: 0}
+
+    .blogs-section .blogs, .blogs-section .search-tools{width: 100%}
+}
+
+@media screen and (max-width:767px){
+    .blogs-section .blogs .blog{width: 100%}
+}
+/*--End Blogs Section Style--*/

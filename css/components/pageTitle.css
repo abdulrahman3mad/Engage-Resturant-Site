@@ -1,0 +1,18 @@
+/*--Start Page Title Section Style--*/
+.page-title{
+    text-align: center;
+    background-color:#F7F7F7;
+    height:250px;    
+    padding:90px 0;
+}
+
+.page-title h1{padding:20px 0; font-size:36px}
+
+.page-title p{color:rgb(185, 185, 185); font-size: 15px;}
+
+.page-title a{padding:0 8px}
+
+.page-title a.previous-page {color:grey}
+
+.page-title a.current-page{color:black}
+/*--End Page Title Section Style--*/

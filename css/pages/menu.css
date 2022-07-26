@@ -1,0 +1,28 @@
+@import "../base/base.css";
+@import "../base/helpers.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+@import "../components/dishes.css";
+
+header ul li a{color:#333333 !important}
+
+.meat-dishes-title{
+    background-image: url("../../imgs/welcome_background.jpg");
+    background-position: 0 -375px;
+    padding: 100px 0;
+}
+
+.fish-dishes-title{
+    background-image: url("../../imgs/shutterstock_232767205.jpg");
+    background-position: 0 -240px;
+}
+
+.dessert-dishes-title{
+    background-image: url("../../imgs/shutterstock_255753799-600x600.jpg");
+    background-position: 0 -600px;
+}
+
+
+@media screen and (max-width:991px){
+    .meat-dishes-title, .fish-dishes-title, .dessert-dishes-title{background-position:0}
+}

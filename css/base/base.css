@@ -1,0 +1,57 @@
+img{width:100%}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(../../fonts/Alegreya/static/Alegreya-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(../../fonts/Alegreya/static/Alegreya-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Alegreya-Sans;
+    src: url(../../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Dancing-Script;
+    src: url(../../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+body{font-family: 'Alegreya', sans-serif; font-weight:400}
+
+a{text-decoration: none}
+
+h1, h2, h3, h4, p{font-weight:400}
+
+h2{font-size:36px; margin-bottom: 8px;}
+
+h2, h3, h4{color:#4E5653}
+
+ul{list-style: none}
+
+p, input, textarea{
+    font-family:"Alegreya-Sans", sans-serif;
+    font-weight: 400;
+}
+
+p{
+    line-height: 1.8;
+    font-size:18px;
+}
+
+
+
+input, textarea{font-size: 16px}
+
+

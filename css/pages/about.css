@@ -1,0 +1,240 @@
+@import "../base/base.css";
+@import "../base/helpers.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+
+
+header ul li a{color:#333333 !important}
+
+.page-title{
+    background-image: url("../../imgs/welcome_background.jpg");
+    background-size: cover;
+    background-position:bottom;
+    color:white;
+    height:250px;    
+    padding:50px 0;
+    text-align: center;
+}
+
+.page-title h1{margin-bottom: 10px; font-size:56px}
+
+
+/*--Start Our Little Secret Section Style--*/
+.our-little-secrets .text-box{
+    width: 60%;
+    float:left;
+    padding-right: 70px;
+}
+
+.our-little-secrets .img-box{
+    float:left;
+    width: 40%;
+    background-image: url("../../imgs/shutterstock_280369721.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    margin-top:25px;
+}
+
+.our-little-secrets .text-box .text-box-head h2{margin-bottom: 20px}
+
+.our-little-secrets .text-box .secrets{margin-top:40px}
+
+.our-little-secrets .text-box .secrets .secret{padding-right: 25px}
+
+.our-little-secrets .text-box .secrets .secret.second-secret{padding-left:32px}
+
+.our-little-secrets h5{
+    font-weight: 500;
+    font-size:19px;
+    margin-bottom:10px;
+}
+
+.our-little-secrets .secret{margin-bottom: 50px}
+
+@media screen and (max-width:991px){
+    .our-little-secrets .text-box, .our-little-secrets .img-box{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .our-little-secrets .text-box .secrets .secret{
+        width: 100%;
+        padding-left: 0 !important;
+    }
+
+    .our-little-secrets .text-box .text-box-head h2{font-size:30px}
+
+    .our-little-secrets .text-box p{font-size:17px}
+}
+/*--End Our Little Secret Section Style--*/
+
+/*--Start Resturant Info Section Style--*/
+.resturant-info{text-align: center; background-color:#F8F8F8}
+
+.resturant-info .info{margin-bottom: 70px}
+
+.resturant-info .info-count{font-size:52px; font-family: "Alegreya", sans-serif}
+
+.resturant-info .info-name{font-size:20px}
+
+.resturant-info .info-icon{
+    width: 40px;
+    height: 40px;
+    margin:auto;
+}
+
+@media screen and (max-width:767px){
+    .resturant-info .info{width: 100%}
+
+    .resturant-info .info-count{font-size:40px}
+}
+/*--End Resturant Info Section Style--*/
+
+/*--Start Resturant Adventages Section Style--*/
+.resturant-adventages .text-box{padding:70px 0 70px 60px}
+
+.resturant-adventages .text-box ul li{margin-bottom: 20px}
+
+.resturant-adventages .text-box ul li span{font-size:18px}
+
+.resturant-adventages .text-box ul li p{display: inline-block}
+
+.resturant-adventages .img-box{text-align: center;}
+
+.resturant-adventages .img-box img{width: 90%}
+
+@media screen and (max-width:991px){
+    .resturant-adventages .text-box{padding: 0 0 0 30px}
+
+    .resturant-adventages .text-box{margin-top: 60px}
+
+    .resturant-adventages .text-box, .resturant-adventages .img-box{width: 100%}
+}
+
+
+@media screen and (max-width:767px){
+    .resturant-adventages .text-box{padding-left: 0}
+}
+
+@media screen and (max-width:400px){
+    .resturant-adventages .text-box{
+        text-align: center;
+        padding:0 !important;
+    }
+
+    .resturant-adventages .text-box ul li{margin-top:30px}
+
+    .resturant-adventages .text-box p{
+        display: block !important;
+        margin-top:10px;
+    }
+}
+
+/*--End Resturant Adventages Section Style--*/
+
+/*--Start Our Secrets Section Style--*/
+.our-secrets{text-align: center; background-color: #F8F8F8}
+
+.our-secrets h3{font-size: 30px; margin-bottom: 10px}
+
+.our-secrets p{font-size: 17px}
+
+.our-secrets .secrets{margin-top:50px; text-align: left}
+
+.our-secrets .secret{margin-bottom: 40px; padding:0 30px}
+
+.our-secrets .secret.first-secret{padding-left:0}
+
+.our-secrets .secrets h4{font-size: 21px; margin-bottom: 20px}
+
+@media screen and (max-width:991px){
+    .resturant-adventages .text-box{padding: 0 0 0 30px;}
+
+    .our-secrets .secrets .secret{width: 50%; padding-left: 0}
+
+    .our-secrets .secrets .clrfix:not(.sec-clrfix){clear: none}
+}
+
+@media screen and (max-width:767px){
+    .our-secrets .secrets .secret{
+        width: 100%;
+        padding-left: 0;
+    }
+}
+/*--End Our Secrets Section Style--*/
+
+/*--Start Our Chefs Section Style--*/
+.our-chefs{text-align: center}
+
+.our-chefs .main_text{font-size:17px}
+
+.our-chefs .chefs{margin-top:50px; text-align: left}
+
+.our-chefs .chefs .chef{padding: 13px; margin-bottom: 20px;}
+
+.our-chefs .chefs .chef .chef-content{
+    border-right:1px solid rgb(233, 233, 233);
+    border-bottom:1px solid rgb(233, 233, 233);
+    border-left:1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.our-chefs .chefs .chef .chef-info{float:left; margin-bottom: 15px}
+
+.our-chefs .chefs .chef .chef-info h4{font-size: 21px}
+
+.our-chefs p{font-size:14px}
+
+.our-chefs .person-icon{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.our-chefs .social-media-icons{float:right}
+
+.our-chefs .social-media-icons .icon{
+    background-color:transparent;
+    color:rgb(88, 88, 88);
+    border:1px solid rgba(183, 183, 183, 0.5);
+    margin-right: 4px;
+} 
+
+@media screen and (max-width:991px){
+    .our-chefs .chefs .chef{width: 50%}
+}
+
+@media screen and (max-width:767px){
+    .our-chefs .chefs .chef{width: 100%; padding-left: 0}
+}
+/*--End Our Chefs Section Style--*/
+
+/*--Start Booking Table Section Style--*/
+.book-table{
+    text-align: center;
+    background-image: url("../../imgs/welcome_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    height:auto;
+}
+
+.book-table h2{color:white; font-size: 45px;}
+
+.book-table p.light-gray-text{
+    color:rgb(231, 231, 231);
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.btn{padding-top:23px; padding-bottom:23px;}
+
+@media screen and (max-width:767px){
+    .book-table .chefs .chef{width: 100%; padding-left: 0}
+
+    .book-table h2{font-size:30px}
+}
+/*--End Booking Table Section Style--*/
+

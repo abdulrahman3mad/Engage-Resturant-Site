@@ -1,0 +1,102 @@
+@import "../base/base.css";
+@import "../base/helpers.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+
+
+header ul li a{color:#333333 !important}
+
+/*--Start Page Title Section Style--*/
+.page-title{
+    text-align: center;
+    background-color:#F7F7F7;
+    height:150px;    
+    padding:10px 0;
+}
+
+.page-title h1{padding:20px 0; font-size:36px}
+
+
+.page-title p{color:rgb(185, 185, 185); font-size: 15px;}
+
+.page-title a{padding:0 8px}
+
+.page-title a.previous-page {color:grey}
+
+.page-title a.current-page{color:black}
+/*--End Page Title Section Style--*/
+
+/*--Start Contact Information Section Style--*/
+.contact-information p.main-text{margin:20px 0}
+
+.contact-information .item{float:left}
+
+.contact-information .form-box{width:70%; padding-right:60px}
+
+.contact-information .form-box .input-container{
+    float:left;
+    width: 50%;
+    padding-right:30px;
+    margin-bottom: 20px;
+}
+
+.contact-information .form-box .input-container.last-in-line{padding-right: 0}
+
+.contact-information .form-box input{
+    border:1px solid rgb(203, 203, 203);
+    padding-right: 20px;
+    padding:15px 12px;
+    width: 100%;
+    color:rgb(109, 109, 109);
+    outline: none;
+}
+
+.contact-information .form-box input:focus{border:1px solid #c7b695}
+
+.contact-information .form-box input::placeholder,
+.contact-information .form-box textarea::placeholder
+{color:rgb(183, 183, 183)}
+
+.contact-information .form-box textarea{
+    border:1px solid rgb(203, 203, 203);
+    padding:12px;
+    margin-top:20px;
+    width: 100%;
+    outline: none;
+}
+
+.contact-information .form-box .btn{margin-top:15px}
+
+.contact-information .information_box{width:30%}
+
+.contact-information .item ul{margin-top:30px}
+
+.contact-information .item li{margin-bottom: 25px}
+
+.contact-information .item li .icon{background-color:#C1AB84}
+
+.contact-information .information_box li p{display: inline-block; margin-top: 7px}
+
+.contact-information  .information_box .icon{background-color:#8E7754}
+
+.contact-information .information_box h4{margin-bottom: 25px; font-size: 21px}
+/*--End Contact Information Section Style--*/
+
+@media  screen and (max-width:1024px) {
+    .contact-information  p{font-size:17px}   
+
+    .contact-information .form-box, .contact-information .information_box{width: 100%}
+
+    .contact-information .form-box{
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .contact-information .form-box .input-container{
+        width: 100%;
+        padding-right:0;
+    }
+}
+

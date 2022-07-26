@@ -1,0 +1,39 @@
+.dishes-title{
+    background-size:cover;
+    height:300px;
+    text-align:center;
+    background-repeat: no-repeat;
+    color:white;
+    padding:100px 0
+}
+
+.dishes-title h3{
+    color:white;
+    font-size:30px;
+    margin-bottom:22px;
+}
+
+.dishes-title p{font-size: 22px;}
+
+.dishes .dish{padding:25px 20px}
+
+.dishes .dish.first-dish{padding-left:0}
+
+.dishes .dish .dish-title{
+    border-bottom: 1px solid rgb(231, 231, 231);
+    padding-bottom: 15px;
+}
+
+.dishes h4{
+    font-size:19px;
+    font-weight:500;
+    float:left;
+}
+
+.dish span.price{float:right; font-size: 19px;}
+
+.dish .dish-description{padding-top:15px}
+
+@media screen and (max-width:767px){
+    .dishes .dish{width: 100%}
+}

@@ -1,0 +1,40 @@
+@import "../base/base.css";
+@import "../base/helpers.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+@import "../components/pageTitle.css";
+
+header ul li a{color:#333333 !important}
+
+.page-title{
+    height:150px;
+    padding:10px 0;
+}
+
+/*--Start Gallery Section Style--*/
+.gallery .img-container{padding-right: 5px}
+
+.gallery img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width:1280px) {
+    .gallery .container{width: 90%}
+}
+
+@media screen and (max-width:1024px) {
+    .gallery .img-container{width: 50%}
+
+    .gallery .clrfix:not(.sec-clrfix){clear: none}
+}
+
+
+
+@media screen and (max-width:767px) {
+    .gallery .img-container{width: 100%}
+}
+
+/*--End Gallery Section Style--*/
